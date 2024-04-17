@@ -1,0 +1,187 @@
+*{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.text{
+    padding-top: 30px;
+    /* text-indent: 17px; */
+    letter-spacing: 5px;
+    word-spacing: 47px;
+}
+
+.bar{
+    position: relative;
+    top: 0px;
+    /* text-align: right; */
+    padding-left: 600px;
+    font-size: 50px;
+    height: 120px;
+    width: 56.1%;
+    color: white;
+    background-color: #070F2B;
+}
+
+.choices{
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 300px;
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#Rock{
+    margin-right: 20px;
+    padding-top: 50px;
+    height: 200px;
+    width: 250px;
+    background-image: url("D:/Desktop/SPScisoors/icons/rock.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+#Rock:hover{
+    border : 10px solid black;
+}
+#Paper{
+    margin-right: 30px;
+    padding-top: 50px;
+    height: 200px;
+    width: 250px;
+    background-image: url("D:/Desktop/SPScisoors/icons/paper.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+#Paper:hover{
+    border : 10px solid black;
+}
+#Scissors{
+    padding-top: 50px;
+    height: 200px;
+    width: 250px;
+    background-image: url("D:/Desktop/SPScisoors/icons/scissors.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+#Scissors:hover{
+    border : 10px solid black;
+}
+
+.yourscoreboard{
+    display: flex;
+    gap: 2rem;
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    left: 50%;
+    font-size: 50px;
+    text-align: center;
+    padding-left: 8px;
+}
+.compscoreboard{
+    display: flex;
+    padding-left: 8px;
+    text-align: center;
+    gap: 2rem;
+    height: 70px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+    left: 60%;
+    font-size: 50px;
+}
+.myactualscore{
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    /* padding-left: -15px; */
+    height: 60px;
+    width: 120px;
+    background-color: grey;
+}
+.itsactualscore{
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-right: 5px;
+    /* padding-left: -15px; */
+    height: 60px;
+    width: 120px;
+    background-color: grey;
+}
+.declaration{
+    margin-top: 30px;
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    font-size: 50px;
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: #070F2B;
+}
+
+.scoreboard{
+    display: flex;
+}
+
+.makemove{
+    display: flex;
+}
+.chosed{
+    height: 200px;
+    width: 300px;
+    /* background-color: grey; */
+}
+.yourmove{
+    display: flex;
+    margin-top: 230px;
+    height: 60px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+}
+.compmove{
+    display: flex;
+    font-size: 50px;
+    margin-top:30px;
+    height: 60px;
+    width: 400px;
+    background-color: black;
+    color: white;
+}
+
+.mymove{
+    text-align: center;
+    font-size: 40px;
+    height: 60px;
+    width: 310px;
+    background-color: grey;
+}
+.itsmove{
+    text-align: center;
+    font-size: 40px;
+    height: 60px;
+    width: 300px;
+    background-color: grey;
+}
+
+
+
+
+
+
+
+
+
+
+
